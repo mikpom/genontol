@@ -12,7 +12,7 @@ DOCSOURCE=$HERE/docs/build/html
 TMPREPO=/tmp/docs
 rm -rf $TMPREPO
 mkdir -p -m 0755 $TMPREPO
-git clone git@github.com:mikpom/genontol.git $TMPREPO
+git clone https://github.com/mikpom/genontol.git $TMPREPO
 cd $TMPREPO
 git checkout gh-pages
 cp -r $DOCSOURCE/* $TMPREPO
