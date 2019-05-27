@@ -25,7 +25,7 @@ import pandas as pd
 from scipy.stats import hypergeom
 from genontol.tools import fdrcorrection
 
-def analyze(O, query, background_attribute, M=None, **kwargs):
+def analyze(G, query, background_attribute, M=None, **kwargs):
     options = {'show' : 'top20'}
     options.update(kwargs)
     _query = set(query)
